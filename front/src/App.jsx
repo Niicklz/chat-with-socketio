@@ -9,7 +9,7 @@ import { UlMessages } from "./components/UlMessages/UlMessages";
 import { Messages } from "./components/Messages/Messages";
 
 function App() {
-  const URL = "http://localhost:3000";
+  const URL = "https://chat-with-socketio-xd27.onrender.com";
   const socket = io(URL, {
     reconnection: false,
   });
