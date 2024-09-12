@@ -1,0 +1,33 @@
+form {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+form input {
+    width: 90%;
+    height: 40px;
+    background-color: #2C2C2C ;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    
+}
+
+input:focus {
+    outline: none;
+}
+form button {
+    min-width: 100px;
+    width: 10%;
+    background-color: #6A4CA4  ;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
